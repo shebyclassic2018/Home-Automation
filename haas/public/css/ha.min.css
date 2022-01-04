@@ -1,0 +1,94 @@
+main.index{
+    height: calc(100% - 97px);
+}
+main.home{
+    height: calc(100% - 62px);
+}
+
+.menu{
+    background: url('../image/background/bg.png');
+    background-size: cover;
+}
+.rsb{
+    background: url('../image/background/bgb.png');
+    background-size: cover;
+}
+
+.home header img{
+    height: 50px;
+}
+
+.container {
+    /* background: url('../image/background/blue2.jpg'); */
+    background-color: #333;
+    background-size: cover;
+}
+.appliance-bg{
+    height: calc(100% - 84px);
+}
+.setting-bg{
+    height: calc(100% - 54px);
+}
+.schedule-body,
+.payment-method-box {
+    width: calc(100% - 250px);
+}
+.ssid-inputs{
+    display: flex;
+}
+.ssid-inputs div:last-child{
+    padding-left: 15px;
+}
+.open-menu,
+.close-menu{
+    width: fit-content;
+}
+.close-menu{
+    font-size: 28px;
+}
+.time-input input{width: 110px;}
+.time-input select {width: 110px;}
+table.schedule th,
+table.schedule td{padding: 8px;}
+
+#temp-bg {
+    background-image: url('../assets/img/photos/photo23@2x.jpg');
+}
+
+@media only screen and (max-width: 768px){
+    .add-device-inputs {
+        display: -ms-grid;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(195px, 1fr));
+        grid-gap: 1.5rem;
+        justify-items: center;
+    }
+    .schedule-body,
+    .payment-method-box {
+        width: calc(100%);
+    }
+    .ssid-inputs{
+        display: block;
+    }
+    .ssid-inputs div:last-child{
+        padding-left: 0;
+    }
+}
+@media only screen and (min-width: 768px){
+    .add-device-btn-row {
+        width: 95%;
+    }
+    .add-device-inputs {
+        display: flex;
+    }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px){
+    
+}
+@media only screen and (max-width: 992px){
+    
+}
+@media only screen and (min-width: 992px){
+    
+}
+
